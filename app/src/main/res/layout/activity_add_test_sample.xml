@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".ui.AddTestSampleActivity">
+<RelativeLayout
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <TextView
+        android:id="@+id/label_patient_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="Patient Id"
+        android:textColor="@color/text_color_black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/linianlyourid"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/label_patient_id"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/edit_patient_id"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="8"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/edit_text_shape"
+            android:hint="xxxxxxxx"
+            android:textColor="@color/text_color_black"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/btn_scan_info"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/edit_text_shape"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_baseline_qr_code_scanner_24" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textlavel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linianlyourid"
+        android:text="Name"
+        android:textColor="@color/text_color_black"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edit_pname_id"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/textlavel1"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/edit_text_shape"
+        android:hint="Type Patient Name"
+        android:textColor="@color/text_color_black"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/textlavel2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_pname_id"
+        android:text="Phone No"
+        android:textColor="@color/text_color_black"
+        android:textSize="18sp" />
+
+
+    <EditText
+        android:id="@+id/edit_phone_id"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/textlavel2"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/edit_text_shape"
+        android:hint="Type Phone No"
+        android:inputType="phone"
+        android:textColor="@color/text_color_black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textlavel3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_phone_id"
+        android:text="Address"
+        android:textColor="@color/text_color_black"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/linianlyourid2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/textlavel3"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edit_address_id"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="8"
+            android:background="@drawable/edit_text_shape"
+            android:hint="Type Patient Address"
+            android:textColor="@color/text_color_black"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:id="@+id/btn_map_info"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/edit_text_shape"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_baseline_location_on_60" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textlavel4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linianlyourid2"
+        android:text="Test Name"
+        android:textColor="@color/text_color_black"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edit_test_name_id"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/textlavel4"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/edit_text_shape"
+        android:hint="Type Test Name"
+        android:textColor="@color/text_color_black"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/btn_save_test_sample"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_test_name_id"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/submit_button_shape"
+        android:text="Add"
+        android:textAllCaps="true"
+        android:textColor="@color/text_color_white" />
+
+</RelativeLayout>
+
+</ScrollView>

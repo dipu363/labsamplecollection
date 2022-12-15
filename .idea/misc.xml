@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/DIPU WORK STATION/ANDROID WORKSPACE/Running Project/LabSampleCollection/app/src/main/res/drawable-v24/edit_text_shape.xml" value="0.2703125" />
+        <entry key="..\:/DIPU WORK STATION/ANDROID WORKSPACE/Running Project/LabSampleCollection/app/src/main/res/drawable-v24/submit_button_shape.xml" value="0.2703125" />
+        <entry key="..\:/DIPU WORK STATION/ANDROID WORKSPACE/Running Project/LabSampleCollection/app/src/main/res/drawable/ic_baseline_qr_code_scanner_24.xml" value="0.2703125" />
+        <entry key="..\:/DIPU WORK STATION/ANDROID WORKSPACE/Running Project/LabSampleCollection/app/src/main/res/layout/activity_add_test_sample.xml" value="0.25416666666666665" />
+        <entry key="..\:/DIPU WORK STATION/ANDROID WORKSPACE/Running Project/LabSampleCollection/app/src/main/res/layout/activity_dashboard.xml" value="0.264" />
+        <entry key="..\:/DIPU WORK STATION/ANDROID WORKSPACE/Running Project/LabSampleCollection/app/src/main/res/layout/activity_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/DIPU WORK STATION/ANDROID WORKSPACE/Running Project/LabSampleCollection/app/src/main/res/layout/activity_main.xml" value="0.24010416666666667" />
+        <entry key="..\:/DIPU WORK STATION/ANDROID WORKSPACE/Running Project/LabSampleCollection/app/src/main/res/layout/activity_maps.xml" value="0.21510416666666668" />
+        <entry key="..\:/DIPU WORK STATION/ANDROID WORKSPACE/Running Project/LabSampleCollection/app/src/main/res/layout/activity_test_sample_details.xml" value="0.264" />
+        <entry key="..\:/DIPU WORK STATION/ANDROID WORKSPACE/Running Project/LabSampleCollection/app/src/main/res/layout/cart_sample.xml" value="0.23854166666666668" />
+        <entry key="..\:/DIPU WORK STATION/ANDROID WORKSPACE/Running Project/LabSampleCollection/app/src/main/res/layout/fragment_done_sample_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/DIPU WORK STATION/ANDROID WORKSPACE/Running Project/LabSampleCollection/app/src/main/res/layout/fragment_sample_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/DIPU WORK STATION/ANDROID WORKSPACE/Running Project/LabSampleCollection/app/src/main/res/layout/test_list_sample_view.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
